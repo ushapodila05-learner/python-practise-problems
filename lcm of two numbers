@@ -1,0 +1,24 @@
+
+#LCM OF TWO NUMBERS
+a=int(input("ENTER THE VALUE OF a: "))
+b=int(input("ENTER THE VALUE OF b: "))
+set1=set()
+set2=set()
+for i in range (1,11):
+   set1.add(i*a)
+for i in range (1,11):
+    set2.add(i*b)
+print(set1)
+print(set2)
+common=set1.intersection(set2)
+print(common)
+print(min(common))  
+#######################################
+#OUTPUT
+#########################################
+ENTER THE VALUE OF a: 10
+ENTER THE VALUE OF b: 100
+{100, 70, 40, 10, 80, 50, 20, 90, 60, 30}
+{800, 100, 900, 200, 1000, 300, 400, 500, 600, 700}
+{100}
+100
