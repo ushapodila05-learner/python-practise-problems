@@ -1,0 +1,11 @@
+# guess the number with computer
+import random
+computer=random.randint(1,11)
+for chance in range(1, 6):
+    user=int(input("Enter your guessing number in range of (1 to 10): "))
+if computer==user:
+    print("your guessing number is right! ,you be winner")
+else :
+    print("your guessing number is wrong! ,computer be winner")    
+print("Try again!")  
+print("computer guessing number is :",computer)  
