@@ -1,0 +1,86 @@
+print("WELCOME TO PYTHON SHOPPING ")
+print("SELECT YOUR CATEGORY")
+print("1.CLOTH & FASHION")
+list1=["SHIRTS","SHOES","BAGS","JEANS","UNIFORMS","JACKETS"]
+print(list1) 
+print("2.ELECTRONICS")
+list2=["MOBILE PHONES","LAPTOPS"," TABLETS","HEADPHONES","MOUSE","KEYBORAD"]
+print(list2) 
+print("3.HOME& KITCHEN")
+list3=["FURNTIURE","CURTAINS","BEDSHEETS","LAMPS","KNIFIES","BOTTLES"]
+print(list3) 
+print("4.BEATUTY & PERSONAL CARE")
+list4=["SHAMMPOO","SOAP","SKINCARE","SUNSCREEN","MAKEUP","COMBS SET"]
+print(list4) 
+print("5.BOOKS & STATIONARY")
+list5=["BOOKS","NOTEBOOKS","BAGS","PENS","COLORS","COLORPENS"]
+print(list5) 
+print("6.TOYS & GAMES")
+list6=["BOARD GAMES","PUZZLES","BEARTOY","TIIGER TOY","ELEPHENT TOY","LADDERS"]
+print(list6) 
+YOUR_CART=[]
+CATEGORY_NO=int(input("SELECT YOUR CATERORY NUMBER FORM 1 TO 6: "))
+match CATEGORY_NO :
+    case 1:
+        
+        x=str(input(" Add cart shopping items in catergory of cloth & fashion: "))
+        YOUR_CART.append(x)
+        print(YOUR_CART)
+        y=str(input(" Remove  cart shoping items in catergory of cloth & fashion: "))
+        YOUR_CART.remove(y)
+        print(YOUR_CART)
+        YOUR_CART.clear()
+        print(YOUR_CART)  
+    case 2:
+        
+        x=str(input(" Add cart shopping items in catergory of ELECTROINCS: "))
+        YOUR_CART.append(x)
+        print(YOUR_CART)
+        y=str(input(" Remove  cart shoping items in catergory of  ELECTROINCS: "))
+        YOUR_CART.remove(y)
+        print(YOUR_CART)
+        YOUR_CART.clear()
+        print(YOUR_CART)  
+     
+    case 3:
+        
+        x=str(input(" Add cart shopping items in catergory of HOME& KITCHEN : "))
+        YOUR_CART.append(x)
+        print(YOUR_CART)
+        y=str(input(" Remove  cart shoping items in catergory of HOME& KITCHEN: "))
+        YOUR_CART.remove(y)
+        print(YOUR_CART)
+        YOUR_CART.clear()
+        print(YOUR_CART)   
+    case 4:
+        
+        x=str(input(" Add cart shopping items in catergory of BEATUTY & PERSONAL CARE  : "))
+        YOUR_CART.append(x)
+        print(YOUR_CART)
+        y=str(input(" Remove  cart shoping items in catergory of BEATUTY & PERSONAL CARE: "))
+        YOUR_CART.remove(y)
+        print(YOUR_CART)
+        YOUR_CART.clear()
+        print(YOUR_CART)  
+    case 5:
+        x=str(input(" Add cart shopping items in catergory of BOOKS & STATIONARY : "))
+        YOUR_CART.append(x)
+        print(YOUR_CART)
+        y=str(input(" Remove  cart shoping items in catergory of BOOKS & STATIONARY : "))
+        YOUR_CART.remove(y)
+        print(YOUR_CART)
+        YOUR_CART.clear()
+        print(YOUR_CART)  
+        
+    case 6:
+        x=str(input(" Add cart shopping items in catergory of TOYS & GAMES : "))
+        YOUR_CART.append(x)
+        print(YOUR_CART)
+        y=str(input(" Remove  cart shoping items in catergory of TOYS & GAMES : "))
+        YOUR_CART.remove(y)
+        print(YOUR_CART)
+        YOUR_CART.clear()
+        print(YOUR_CART) 
+        
+    case _:
+            print(" OOPS ! Something wrong, try again")                  
