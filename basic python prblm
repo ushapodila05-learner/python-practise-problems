@@ -1,0 +1,36 @@
+#reverse a string
+str='usha'
+print(str[::-1])
+#finding largest & smallest number in list
+list=[1,2,3,4,5]
+print(max(list))
+print(min(list))
+
+#print even or odd 
+
+n=int(input())
+#if n//2*2==n:
+#if n%2==0:
+if n&1==0:#even
+    print('even')
+else:
+    print('odd') 
+
+#print sum of digits
+
+n=int(input())
+#print(n//10+n%10)
+print(n//100+(n%100)//10+(n%100)%10)#three digit addition
+
+#wap swap the num bers without third variable
+a=10
+b=45
+a,b=b,a
+print("a= ",a)
+print("b= ",b)
+
+#print sum and average of array
+
+a=[1,2,3,4]
+print(sum(a))
+print(sum(a)/len(a))
